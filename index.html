@@ -7,49 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src=""></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    <div class="display">
-            <div  class="main-nav">
+            <div  class="main-nav clearfix">
                 <h1>Néstor and María</h1>
                 <ul>
-                    <li><a href="#background-color"><strong>Home</strong></a></li>
+                    <li><a href="#"><strong>Home</strong></a></li>
                     <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
                     <li><a href="#contact"><strong>Contact</strong></a></li>
                 </ul>
             </div>
-                <header class="top container">
+                <header class="top container clearfix">
                     <img src="images/responsive-layout-profile.png" alt="Profile image" class="profile-img">
-                    <p>Hi!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="introduction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </header>
            
 
             <main id="portfolio">
-                <div class="container">
+                <div class="container clearfix">
                     <h2>Portfolio</h2>
-                    <div class="first">
+                    <div class="content">
                         <img src="images/portfolio-1.png" alt="Marketing picture">
                         <h2>Marketing Page</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div>  
+
+                    <div class="content">  
                         <img src="images/portfolio-2.png" alt="Search Picture">
                         <h2>Search Page</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
+                    </div>
+
+                    <div class="content">    
                         <img src="images/portfolio-3.png" alt="Travel picture">
                         <h2>Travel App</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
+                    </div>
+
+                    <div class="content">    
                         <img src="images/portfolio-4.png" alt="Map picture">
                         <h2>Map of Favorite Spots</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
+                    </div>
+
+                    <div class="content">    
                         <img src="images/portfolio-5.png" alt="Gallery picture">
                         <h2>Photo Gallery</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
+                    </div>
+
+                    <div class="content">    
                         <img src="images/portfolio-6.png" alt="Gallery picture">
                         <h2>Calculator</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -65,11 +73,15 @@
                     </div>
                         <div class="border-footer clearfix">
                             <p class="bottom-name">Student name</p>
-                            <a href="#top" class="top-button">BACK TO TOP</a>
+                            <a href="#top" class="top-button"><strong>BACK TO TOP</strong></a>
+                            <ul class="bottom-nav">
+                                <li class="bottom-list"><a href="#"><strong>Home</strong></a></li>
+                                <li class="bottom-list"><a href="#portfolio"><strong>Portfolio</strong></a></li>
+                                <li class="bottom-list"><a href="#contact"><strong>Contact</strong></a></li>
+                            </ul>
                         </div>    
                 
             </footer>
-
-    </div>        
+        
 </body>
 </html>
