@@ -36,7 +36,12 @@ img {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
+}
 
+ul li {
+    background-color: white;
+    padding: 5px;
+    margin: 5px 0 5px;
 
 }
 
@@ -47,12 +52,6 @@ ul {
     
 }
 
-ul li {
-    background-color: white;
-    margin: 5px 0 5px;
-    padding: 5px;
-    
-}
 
 h1 {
     margin: 20px 0 20px;
@@ -121,3 +120,55 @@ h3 {
   p {
       margin: 20px 0 20px;
   }
+
+  /* Media query for tablet */
+  @media (min-width: 768px) {
+   /* Header */
+    ul li {
+         display: inline-block;
+         background: transparent;
+     }
+     .top container {
+     display: inline-block;
+    }
+    .profile-img {
+        float: right;
+        width: 40%;
+    }
+    header p {
+        width: 60%;
+    }
+/* Main content */
+   .content{
+       width: 45%;
+       display: inline-block;
+       margin: 5px;
+
+
+       /* Footer */
+   } 
+   .top-button {
+       display: none;
+   }
+   .bottom-nav{
+      float: right;
+           
+   }
+   .bottom-nav li {
+        float: left;
+        padding-right: 10px;
+
+   }
+   .bottom-list{
+    margin: 0 0 0 10px;
+    padding: 0;
+
+}
+
+}
+@media (max-width: 767px) {
+    .footer-list {
+        display: none;
+    }
+  
+}
