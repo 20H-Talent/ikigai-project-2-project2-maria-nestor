@@ -115,7 +115,7 @@ h3 {
   .top-button,
   li a {
       color: black;
-      text-decoration: none;
+      text-decoration: underline wavy black;
   }
   
   p {
